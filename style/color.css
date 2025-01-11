@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header Section */
+  .header-section {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    background-color: #ffffff; 
+    border-bottom: 1px solid #ddd; 
+    
+  }
+
+ 
+  /* Logo Styling */
+  .logo{
+    margin-left: 180px;
+  }
+  .logo h1 {
+    margin: 0; 
+    font-size: 1.5em; 
+    font-weight: bold; 
+    color: #000; 
+  }
+
+
+
+  /* Sign-In Button Styling */
+  .sign-in a {
+    text-decoration: none; /
+    font-size: 1em; 
+    color: #004d00; 
+    border: 2px solid #004d00; 
+    padding: 5px 15px; 
+    border-radius: 5px; 
+    font-weight: bold; 
+    transition: background-color 0.3s, color 0.3s; 
+  }
+
+  .sign-in{
+    margin-right: 180px;
+  }
+  
+  .sign-in a:hover {
+    background-color: #004d00; 
+    color: #ffffff; 
+  }
+  
+
+  /*  This is the Hero Section part */
+
+.banner-back{
+  display: flex;
+  background-color: rgb(198, 228, 214);
+  justify-content: center;
+  padding: 80px 100px;
+  max-width: 1300px;
+  height: 60vh;
+  margin: 0px auto 50px auto;
+  border-radius: 30px;
+}
+.banner-back{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-subtitle{
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 10px;
+}
+.banner-title{
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 10px;
+}
+.left-side{
+  align-items: center;
+  margin-left: -100px;
+  margin: 30px;
+ 
+}
+.right-side{
+  align-items: center;
+  margin-right: -100px;
+  margin: 30px;
+
+}
+.banner{
+  margin-top: 50px;
+}
+
+
+/*  End of Hero Section  */
+
+
+/* This is the Vision Section part */
+
+.vision-title{
+  color: rgb(14, 14, 14);
+  letter-spacing: 0%;
+  text-align: left;
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.vision-description{
+  color: rgba(14, 14, 14, 0.7);
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 10px;
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+
+}
+
+.vision-container{
+  margin: 80px 205px;
+}
+.card-title{
+  color: rgba(14, 14, 14, 0.8);
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 10px;
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.card-description{
+  color: rgba(14, 14, 14, 0.7);
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 10px;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.card{
+  max-width: 350px;
+  background-color: rgba(84, 144, 245, 0.2);
+  border-radius: 30px;
+  padding: 50px 36px 50px 36px;
+ 
+}
+
+.card2{
+  max-width: 350px;
+  background-color: rgb(198, 228, 214);
+  border-radius: 30px;
+  padding: 50px 36px 50px 36px;
+
+}
+.card3{
+  max-width: 350px;
+  background-color:rgb(247, 235, 207);
+  border-radius: 30px;
+  padding: 50px 36px 50px 36px;
+
+}
+.card-img{
+  text-align: left;
+}
+.card-btn1{
+  color: rgb(255, 255, 255);
+  letter-spacing: 0%;
+  text-align: left;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-left: 8px;  
+  background-color: rgb(84, 144, 245);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px; 
+}
+.card-btn2{
+  color: rgb(255, 255, 255);
+  letter-spacing: 0%;
+  text-align: left;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-left: 8px;   
+  background-color: rgb(9, 161, 92);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+.card-btn3{
+  color: rgb(255, 255, 255);
+  letter-spacing: 0%;
+  text-align: left;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-left: 8px;   
+  background-color: rgb(255, 194, 57);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+.card-container{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 24px;
+  justify-content:space-between;
+  align-items: center;
+}
+
+/* End of Vision section  */
+
+/* This is the Recent news part */
+
+.recent-title{
+  color: rgba(14, 14, 14, 0.8);
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 10px;
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.recent-description{
+  color: rgba(14, 14, 14, 0.7);
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 10px;
+  padding-top: 10px;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.recent-head{
+  margin: 40px 180px;
+
+}
+.box-title{
+  color: rgba(14, 14, 14, 0.8);
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 10px;
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+.rightbox{
+  margin: 32px;
+}
+
+.box-date{
+  color: rgba(14, 14, 14, 0.7);
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 10px;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.box-details{
+  color: rgba(14, 14, 14, 0.7);
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 10px;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.box-img{
+  padding: 10px;
+}
+.box-img{
+  border-radius: 20px;
+}
+.box{
+  display: flex;
+  margin: 48px 180px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+.box2{
+  display: flex;
+}
+
+/*  End of recent section part */
+
+
+
+/* This is the Donate Section part */
+
+
+.donate-title {
+  color: rgb(14, 14, 14);
+  letter-spacing: 0%;
+  text-align: center;
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.donate-details {
+  max-width: 1100px;
+  color: rgba(14, 14, 14, 0.7);
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 24px auto;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.amount-container {
+  max-width: 1000px;
+  justify-content: space-around;
+  display: flex;
+  margin: 10px auto;
+  align-items: center;
+}
+
+.amount-box,
+.amount-box2,
+.amount-box3,
+.amount-box4 {
+  max-width: 240px;
+  margin: 20px;
+  padding: 40px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 10px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.amount-box2 {
+  background-color: rgb(198, 228, 214);
+}
+
+.amount-box:hover,
+.amount-box2:hover,
+.amount-box3:hover,
+.amount-box4:hover {
+  background-color: #c9f0e1;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.input1 {
+  max-width: 800px;
+  margin: 20px 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 20px 40px;
+  background: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px auto;
+}
+
+input {
+  border: none;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.btn-donate {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 106, 80);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  justify-content: center;
+  letter-spacing: 0%;
+  margin: 10px auto;
+  align-items: center;
+  line-height: 22px;
+  text-align: center;
+  border: none;
+  padding: 15px 15px;
+  border-radius: 8px;
+  margin-left: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-donate:hover {
+  background-color: #3f997e;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.btn-d {
+  margin: 25px auto;
+  text-align: center;
+}
+
+#donate {
+  margin: 80px auto;
+}
+
+
+/* End of Donate Section  */
